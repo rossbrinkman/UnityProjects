@@ -2,8 +2,17 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - EnemyScript
     - GameManager
     - PlayerController
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -11,7 +20,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Main.unity:
@@ -29,11 +37,23 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -46,8 +66,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9334}
     - Class: 114
-      Script: {instanceID: 9338}
-    - Class: 114
       Script: {instanceID: 9378}
     - Class: 114
       Script: {instanceID: 9380}
@@ -57,6 +75,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9966}
     - Class: 114
       Script: {instanceID: 10048}
+    - Class: 114
+      Script: {instanceID: 19750}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -600,7 +620,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: d9f44812a29002fb44a053693151b978
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -736,7 +756,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 705008955c50754c2e868f4a4b20b09b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: D:/School Docs/DIG 3480/UnityProjects/Tutorial 2/Builds/Tutorial 2.exe
+  playerPath: D:/School Docs/DIG 3480/UnityProjects/Tutorial 2/Builds/Challenge 2/Tutorial
+    2.exe
