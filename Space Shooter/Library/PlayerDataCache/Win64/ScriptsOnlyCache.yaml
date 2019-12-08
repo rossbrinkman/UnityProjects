@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - Mover
     - PlayerController
     - RandomRotator
+    - ShotScript
     - WeaponController
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -84,9 +85,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10528}
+      Script: {instanceID: 10524}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 10530}
+    - Class: 114
+      Script: {instanceID: 35014}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -640,7 +643,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 8edd28b31dfb63ef8cac8a2a4f8143b7
+      Hash: 55fa54a8bae548f9c2adb6e935ea377f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -820,6 +823,12 @@ ScriptsOnlyBuild:
     className: Done_RandomRotator
   - hash:
       serializedVersion: 2
+      Hash: b097e0caecad1461d0e12e1c36619690
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EvasiveManeuver
+  - hash:
+      serializedVersion: 2
       Hash: d3bbd1f86b55a6168b664522b2cf57b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -868,12 +877,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: b097e0caecad1461d0e12e1c36619690
+      Hash: b81e8a4658cf4fb9169b2105da986ec1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: EvasiveManeuver
+    className: ShotScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: D:/School Docs/DIG 3480/UnityProjects/Space Shooter/Builds/Challenge3
+  playerPath: D:/School Docs/DIG 3480/UnityProjects/Space Shooter/Builds/Final Project
     Build/Space Shooter.exe
